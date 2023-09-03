@@ -1,0 +1,21 @@
+{
+  "name": "varla-theme",
+  "displayName": "varla-theme",
+  "description": "A Dark Color theme for EcmaScript and Golang",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Varla Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Varla Theme-color-theme.json"
+      }
+    ]
+  }
+}

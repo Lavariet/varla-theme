@@ -1,0 +1,226 @@
+{
+	"name": "Varla Theme",
+	"colors": {
+		"editor.background": "#1e1e1e",
+		"editor.foreground": "#d4d4d4",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb",
+
+	},
+	"tokenColors": [
+		{
+			"name": "Import",
+			"scope": [
+				"keyword.control.import.tsx",
+				"keyword.control.from.tsx",
+				"keyword.control.export.tsx",
+				"keyword.control.flow.tsx",
+				"keyword.control.default.tsx",
+				"keyword.control.conditional.tsx",
+				"keyword.control.loop.tsx",
+				"keyword.control.as.tsx",
+				"keyword.package.go",
+				"keyword.import.go",
+				"keyword.control.go",
+			],
+			"settings": {
+				"foreground": "#984DE4"
+			}
+		},
+		{
+			"name": "Import Variable",
+			"scope": [
+				"variable.other.readwrite.alias.tsx",
+				"variable.other.readwrite.tsx",
+				"variable.parameter.tsx",
+				"variable.other.object.tsx",
+				"variable.other.assignment.go"
+			],
+			"settings": {
+				"foreground": "#40fd27"
+			}
+		},
+		{
+			"name": "JSX Custom Tag",
+			"scope": [
+				"support.class.component.tsx",
+				"entity.name.type.alias.tsx",
+				"entity.name.type.interface.tsx",
+				"entity.name.type.tsx",
+				"support.class",
+				"support.type",
+				"entity.name.type",
+				"entity.other.attribute",
+				"entity.name.scope-resolution",
+				"entity.name.class",
+				"storage.type.string.go",
+				"storage.type.numeric.go"
+			],
+			"settings": {
+				"foreground": "#E97F55"
+			}
+		},
+		{
+			"name": "JSX Custom Tag",
+			"scope": [
+				"variable.other.property.tsx",
+				"punctuation.other.colon.go",
+			],
+			"settings": {
+				"foreground": "#CA678D"
+			}
+		},
+		{
+			"name": "typeof",
+			"scope": [
+				"keyword.operator.expression.typeof.tsx",
+				"keyword.operator.expression.of.tsx",
+				"keyword.operator.expression.in.tsx",
+				"punctuation.other.colon.go"
+			],
+			"settings": {
+				"foreground": "#C54040"
+			}
+		},
+		{
+			"name": "Import Variable",
+			"scope": [
+				"punctuation.definition.string.begin.tsx",
+				"punctuation.definition.string.template.begin.tsx",
+				"punctuation.definition.string.end.tsx",
+				"punctuation.definition.string.template.end.tsx",
+				"string.quoted.double.tsx",
+				"string.quoted.single.tsx",
+				"entity.name.import.go",
+				"string.quoted.double.go",
+				"string.quoted.double.json.comments",
+			],
+			"settings": {
+				"foreground": "#CE9178"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"punctuation.definition.comment.tsx",
+				"comment.line.double-slash.tsx",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function.tsx",
+				"support.function.builtin.go",
+				"support.function.go",
+				"entity.name.function.go",
+			],
+			"settings": {
+				"foreground": "#fff23d"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"storage.type.tsx",
+				"entity.other.attribute-name.tsx",
+				"storage.type.function.arrow.tsx",
+				"storage.type.function.tsx",
+				"storage.type.interface.tsx",
+				"storage.type.type.tsx",
+				"keyword.var.go",
+				"keyword.function.go",
+				"support.type.property-name.json.comments"
+			],
+			"settings": {
+				"foreground": "#82dcff"
+			}
+		},
+		{
+			"name": "Variable Value",
+			"scope": [
+				"variable.other.constant.tsx",
+				"variable.other.constant.object.tsx",
+				"storage.modifier.async.tsx",
+				"punctuation.definition.template-expression.begin.tsx",
+				"punctuation.definition.template-expression.end.tsx",
+				"source.go"
+			],
+			"settings": {
+				"foreground": "#00AAFF"
+			}
+		},
+		{
+			"name": "Variable Value",
+			"scope": [
+				"meta.object-literal.key.tsx"
+			],
+			"settings": {
+				"foreground": "#a9b6e9"
+			}
+		},
+		{
+			"name": "Tags",
+			"scope": [
+				"entity.name.tag.tsx",
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+		{
+			"name": "Tags",
+			"scope": [
+				"constant.numeric.decimal.tsx",
+				"constant.numeric.decimal.go",
+				"constant.numeric.json.comments",
+			],
+			"settings": {
+				"foreground": "#FF00FF"
+			}
+		},
+		{
+			"name": "booleans",
+			"scope": [
+				"constant.language.boolean.true.tsx",
+				"constant.language.boolean.false.tsx",
+				"constant.language.json.comments"
+			],
+			"settings": {
+				"foreground": "#8F9194"
+			}
+		},
+		{
+			"name": "Tag opening and closing",
+			"scope": [
+				"punctuation.definition.tag.begin.tsx",
+				"punctuation.definition.tag.end.tsx",
+				"constant.language.undefined.tsx",
+				"constant.language.null.tsx",
+				"constant.language.go"
+
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Variable Value",
+			"scope": [
+				"keyword.operator.assignment.tsx",
+				"keyword.operator.increment.tsx",
+				"keyword.operator.assignment.go",
+				"keyword.operator.arithmetic.go",
+				"keyword.operator.comparison.go",
+				"punctuation.other.comma.go",
+				"punctuation.other.period.go",
+			],
+			"settings": {
+				"foreground": "#dbdbdb"
+			}
+		},
+	]
+}
